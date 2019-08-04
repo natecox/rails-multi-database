@@ -1,0 +1,35 @@
+development:
+  primary:
+    database: multi_database_primary_development
+    adapter: postgresql
+    migrations_paths:
+      - "db/migrate/primary"
+  secondary:
+    database: multi_database_secondary_development
+    adapter: postgresql
+    migrations_paths:
+      - "db/migrate/secondary"
+
+test:
+  primary:
+    database: multi_database_primary_test
+    adapter: postgresql
+    migrations_paths:
+      - "db/migrate/primary"
+  secondary:
+    database: multi_database_secondary_test
+    adapter: postgresql
+    migrations_paths:
+      - "db/migrate/secondary"
+
+production:
+  primary:
+    database: multi_database_primary_production
+    adapter: postgresql
+    migrations_paths:
+      - "db/migrate/primary"
+  secondary:
+    database: multi_database_secondary_production
+    adapter: postgresql
+    migrations_paths:
+      - "db/migrate/secondary"

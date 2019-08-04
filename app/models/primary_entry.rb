@@ -1,0 +1,2 @@
+class PrimaryEntry < PrimaryBase
+end

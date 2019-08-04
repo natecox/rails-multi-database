@@ -1,0 +1,2 @@
+class SecondaryEntry < SecondaryBase
+end
